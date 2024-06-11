@@ -1,5 +1,3 @@
-# Название сценария
+# Миграция в Yandex Managed Service for Elasticsearch с помощью снапшотов
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+Вы можете перенести данные из кластера-источника Elasticsearch в кластер-приемник [Managed Service for Elasticsearch](https://yandex.cloud/ru/docs/managed-elasticsearch) с помощью снапшотов, размещенных в бакете [Yandex Object Storage](https://yandex.cloud/ru/docs/storage). Подготовка инфраструктуры для Managed Service for Elasticsearch и Object Storage через Terraform описана в [практическом руководстве](https://yandex.cloud/ru/docs/managed-elasticsearch/tutorials/migration-via-snapshots), необходимый для настройки конфигурационный файл [mes-migration.tf](mes-migration.tf) расположен в этом репозитории.
