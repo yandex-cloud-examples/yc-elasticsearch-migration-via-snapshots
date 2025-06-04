@@ -1,0 +1,3 @@
+# Migrating to Yandex Managed Service for Elasticsearch using snapshots
+
+To migrate data from an Elasticsearch source cluster to a [Managed Service for Elasticsearch](https://yandex.cloud/docs/managed-elasticsearch) target cluster, use snapshots residing in a [Yandex Object Storage](https://yandex.cloud/docs/storage) bucket. See [this tutorial](https://yandex.cloud/docs/managed-elasticsearch/tutorials/migration-via-snapshots) to learn how to prepare the infrastructure for Managed Service for Elasticsearch and Object Storage using Terraform. This repository contains the configuration file you will need: [mes-migration.tf](mes-migration.tf).
